@@ -1,11 +1,11 @@
 # Sigma-Model
 
 > **Open Source Side (OSS)**  
-> This is the open source implementation of the Sigma Model, designed to mirror the functionality of the proprietary version while providing greater customization and transparency. This OSS version allows users to modify, extend, and adapt the model according to their specific needs.
+> This is the open source implementation of the Sigma System, designed to mirror the functionality of the proprietary version while providing greater customization and transparency. This OSS version allows users to modify, extend, and adapt the model according to their specific needs.
 
 ## Overview
 
-The Sigma Model represents a revolutionary approach to risk-centric portfolio optimization, leveraging advanced Large Language Models to analyze institutional investment patterns and identify emerging market consensus. This model meticulously tracks portfolio holdings of major investment firms, recognizing meaningful position changes and identifying strategic shifts that often precede major market moves.
+The Sigma System represents a revolutionary approach to risk-centric portfolio optimization, leveraging advanced Large Language Models to analyze institutional investment patterns and identify emerging market consensus. This model meticulously tracks portfolio holdings of major investment firms, recognizing meaningful position changes and identifying strategic shifts that often precede major market moves.
 
 ## Key Features
 
@@ -18,7 +18,7 @@ The Sigma Model represents a revolutionary approach to risk-centric portfolio op
 
 ## System Architecture
 
-The Sigma Model employs a sophisticated LLM pipeline architecture:
+The Sigma System employs a sophisticated LLM pipeline architecture:
 
 1. **Initial Processing**: Weaker, cost-effective LLM models (4.1 mini and nano) summarize 300-word documents into concise 20-word headlines
 2. **Quantitative Analysis**: More advanced and expensive o3 models process these summaries to track buy/sell decisions and position sizes for each tracked investment company
@@ -34,12 +34,12 @@ The Sigma Model employs a sophisticated LLM pipeline architecture:
 
 ## Purpose
 
-The goal of the Sigma Model is to move beyond traditional approaches:
+The goal of the Sigma System is to move beyond traditional approaches:
 - Instead of relying on single analyst recommendations
 - Instead of following individual fund manager strategies
 - Instead of using basic technical indicators alone
 
-The model leverages the collective intelligence of major investment firms, continuously evaluating and ranking their performance to optimize portfolio decisions. Higher-ranked companies with better performance receive higher coefficients, meaning they have more influence in the Sigma Model's final decision-making process.
+The model leverages the collective intelligence of major investment firms, continuously evaluating and ranking their performance to optimize portfolio decisions. Higher-ranked companies with better performance receive higher coefficients, meaning they have more influence in the Sigma System's final decision-making process.
 
 ## Key Capabilities
 
@@ -49,4 +49,4 @@ The model leverages the collective intelligence of major investment firms, conti
 - **Risk Management**: Focuses on consensus-building and risk mitigation through institutional alignment
 - **Transparency**: Open source implementation allows for customization and verification
 
-The Sigma Model has demonstrated exceptional ability to distinguish between routine portfolio adjustments and strategic shifts with conviction, making it an invaluable tool for institutional-grade portfolio optimization.
+The Sigma System has demonstrated exceptional ability to distinguish between routine portfolio adjustments and strategic shifts with conviction, making it an invaluable tool for institutional-grade portfolio optimization.
